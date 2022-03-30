@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/validarform.css">
+    <title>Cadastro</title>
+
+    <script type="module" src="js/cadastro/criar-cadastro.js" defer></script>
+
+</head>
+<body>
+    <section class="alinhar">
+        <div class="container" id="divcontainer">
+            <h1>Crie uma nova conta</h1>
+            <h2>Preencha com seus dados</h2>
+            <form action="" id="form-novo-usuario">
+                <div class="box-alinhar">
+                    <div class="d-flex">
+                        <label for="nome" id="nomelabel">Nome</label>
+                        <input type="text" class="nome pega-input-js" id="nome" name="nome" placeholder="Digite seu nome..." pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"> 
+                        <span class="error">Preencha este campo!</span>
+                    </div>
+                    <div class="d-flex">
+                        <label for="sobrenome">Sobrenome</label> 
+                        <input type="text" class="sobrenome pega-input-js" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome..." pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+                        <span class="error">Preencha este campo!</span>
+                    </div>
+                </div>
+                <label for="email">E-mail</label> 
+                <input type="email" class="email pega-input-js" id="email" name="email" placeholder="seuemail@mail.com"> 
+                <span class="error">Preencha este campo!</span>
+                <label for="senha">Senha</label> 
+                <input type="password" class="senha pega-input-js senha" id="senha" name="senha" placeholder="**********" data-senha> 
+                <span class="error">Preencha este campo!</span>
+                <label for="confirmar-senha">Confirmar Senha</label> 
+                <input type="password" class="senha-confirmar pega-input-js senha" id="confirmar-senha" name="confirmar-senha" placeholder="**********" data-senha> 
+                <span class="error">Preencha este campo!</span>
+                <input type="submit" value="Cadastrar" form="form-novo-usuario">
+                <span class="user-criado">Usuário criado com sucesso!</span>
+                <p> Já tem uma conta? <a href="login.html">Login</a> </p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -9,7 +9,7 @@ O objetivo deste projeto é puramente funcional. Foi pensado em utilizar boas pr
 <hr>
 <h3>Login</h3>
 <p>
-Para testar o login, basta clicar <a href="https://israexe.github.io/Autenticacao-de-formulario/login.html">aqui</a>.
+Para testar o login, basta clicar <a href="https://israexe.github.io/Autenticacao-de-formulario/login.html" target="_blank">aqui</a>.
 </p>
 
 <p>
@@ -31,7 +31,7 @@ Não esqueça de utilizar uma das seguintes credenciais para que dê certo 👇
 <h3>Cadastro</h3>
 
 <p>
-Para testar o cadastro, clique <a href="https://israexe.github.io/Autenticacao-de-formulario/contato.html">aqui</a>.
+Para testar o cadastro, clique <a href="https://israexe.github.io/Autenticacao-de-formulario/contato.html" target="_blank">aqui</a>.
 </p>
 
 <hr>

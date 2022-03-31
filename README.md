@@ -31,7 +31,7 @@ Não esqueça de utilizar uma das seguintes credenciais para que dê certo 👇
 <h3>Cadastro</h3>
 
 <p>
-Para testar o cadastro, clique <a href="https://israexe.github.io/Autenticacao-de-formulario/contato.html" target="_blank">aqui</a>.
+Para testar o cadastro, clique <a href="https://israexe.github.io/Autenticacao-de-formulario/cadastro.html" target="_blank">aqui</a>.
 </p>
 
 <hr>
